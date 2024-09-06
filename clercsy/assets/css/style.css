@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+    color: #FBFAF7;
+    background-color: #163A24;
+    height: 98px;
+}
+
+.header__logo {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.container {
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.header__link {
+    color: #FBFAF7;
+    text-decoration: none;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn {
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+}
+
+.first-section {
+    background-color: #163A24;
+    height: calc(100vh - 98px);
+    background-image: url(../img/fon__first-section.png);
+}
